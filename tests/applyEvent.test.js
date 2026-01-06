@@ -85,3 +85,5 @@ describe( 'applyEvent', () =>{
         expect(() =>applyEvent(table,event)).toThrow(`Evento ${event.type} no soportado`)
     })
 })
+
+//comentario añadido
